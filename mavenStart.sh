@@ -1,11 +1,8 @@
 #!/bin/bash
 # @author Oliver avarello
 # @version 0.0.0-Snapshort
-# Diees programm erstellt ein maven project
-
-
-
-#mvn archetype:generate -DgroupId=paketName -DartifactId=projectname -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+# Dieses script erstellt ein maven project
+# vorausetzung maven muss instaliert sein und in Path eingetragen sein
 
 read -p "Paket Name:" paketName;
 read -p "Project name: " projectname;
